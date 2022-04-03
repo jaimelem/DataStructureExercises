@@ -1,0 +1,5 @@
+- N jugadores numerados de 1 a N
+- El iesimo jugador será eliminado
+- Ai es la cantidad de dinero que apuesta cada jugador
+  agregado a la cesta de premios
+- El ganador será el N-1
