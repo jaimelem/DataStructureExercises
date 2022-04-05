@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedLightGreenLight", "RedLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayingWithMatches", "PlayingWithMatches\PlayingWithMatches.csproj", "{1C12562A-5777-47FE-AEEF-AE493E453B73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByAri2", "ByAri2\ByAri2.csproj", "{6D3002DB-74A3-4688-BCA1-3604670A2E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByAri2", "ByAri2\ByAri2.csproj", "{6D3002DB-74A3-4688-BCA1-3604670A2E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByAri3", "ByAri3\ByAri3.csproj", "{0D6824AA-5366-494F-822A-4AE2A234E6F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6D3002DB-74A3-4688-BCA1-3604670A2E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3002DB-74A3-4688-BCA1-3604670A2E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3002DB-74A3-4688-BCA1-3604670A2E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6824AA-5366-494F-822A-4AE2A234E6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6824AA-5366-494F-822A-4AE2A234E6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6824AA-5366-494F-822A-4AE2A234E6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6824AA-5366-494F-822A-4AE2A234E6F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
