@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ByAri3
 {
@@ -8,7 +9,7 @@ namespace ByAri3
         static void Main(string[] args)
         {
             //var arrayLength = int.Parse(Console.ReadLine());
-            int[] arr = new int[] { -1, 2, 5, 1, 3, -5 };
+            int[] arr = new int[] { -1, 2, 5, 1, -5, 3, -5 };
 
             var r = Result(arr);
 
@@ -32,6 +33,27 @@ namespace ByAri3
                     {
                         result.Add(Math.Abs(arr[i]));
                     }
+                }
+            }
+
+            return Distinct(result.ToArray());
+        }
+
+        private static int[] Distinct(int[] arr)
+        {
+            List<int> result = new List<int>();
+
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                int rest = arr[i] - arr[i+1];
+
+                if (rest != 0)
+                {
+                    result.Add(arr[i]);
+                }
+                else
+                {
+                    result.Add(arr[i+1]);
                 }
             }
 
