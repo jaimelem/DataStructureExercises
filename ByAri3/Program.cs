@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ByAri3
 {
@@ -8,7 +7,6 @@ namespace ByAri3
     {
         static void Main(string[] args)
         {
-            //var arrayLength = int.Parse(Console.ReadLine());
             int[] arr = new int[] { -1, -3, 2, 5, 1, -5, 3, -5, 3, 5 };
 
             var r = Result(arr);
